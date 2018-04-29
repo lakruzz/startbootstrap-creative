@@ -24,7 +24,7 @@ sass:
   style: compressed
 
 highlighter: rouge
-exclude: [README.md, bower_components]
+exclude: [README.md, bower_components, node_modules]
 timezone: Europe/Copenhagen
 markdown: kramdown
 permalink: /:categories/:title/

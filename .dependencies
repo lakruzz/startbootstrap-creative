@@ -6,6 +6,8 @@ docker run \
   -it \
   --rm \
   -v $(pwd):/data:rw \
-  digitallyseamless/nodejs-bower-grunt:latest npm install -g gulp && \
-  npm install && \
-  gulp
+  digitallyseamless/nodejs-bower-grunt:latest npm install gulp && \
+     #  npm install gulp-sass && \
+     #  npm rebuild node-sass --force && \
+     #  npm install && \
+     gulp default
