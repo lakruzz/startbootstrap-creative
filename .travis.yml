@@ -1,3 +1,4 @@
+# This travis workflow is part of the original template
 sudo:          false
 language:      node_js
 node_js:
